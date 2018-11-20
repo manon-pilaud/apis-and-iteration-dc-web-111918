@@ -33,7 +33,6 @@ end
 
 def print_movies(films)
   films.each.with_index(1) do |key,index|
-
     puts "#{index}. #{key["title"]}"
   end
 end
